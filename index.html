@@ -6,19 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>PARTITURAS GRATUITAS</title>
     <link rel="stylesheet" href="css/estilo.css" />
-    <link rel="font-style" href="css/estilo.css"/>
-    <style> 
-    body {background-color:black;}
-    </style>
-
+   
 </head>
 <body>
 
-    <header>
-        <picture>    
-           <img src="./HOME/Título/Nome_do_título.png" alt="Acsa Silveira - Partituras gratuitas" style="width: 50%;height: 90%; left: 290px; top: 36px; position: absolute;">
-           <img src="./HOME/Notas/notas_a_direita_do_título.png" alt="Notas a direita do título" style="width: 15%; height: 375px;left: 975px; top: -16px;position: absolute;">
-           <img src="./HOME/Notas/notas_a_direita_do_título.png" alt="Notas abaixo e a esquerda do título" style="width: 15%; height: 375px; left: 15px; top:171px;position:absolute;">
+    <header class="principal">
+        <picture>  
+            <div><img class="notas1" src="./HOME/Notas/notas.png" alt="Notas a direita do título"> </div>
+            <div class="titulo"><img class="titulo" src="./HOME/Título/Nome_do_título.png" alt="Acsa Silveira - Partituras gratuitas" > </div>
+           <div><img class="notas2" src="./HOME/Notas/notas.png" alt="Notas abaixo e a esquerda do título" ></div>
         </picture>
 
         <nav>
@@ -26,17 +22,19 @@
         </nav>
     </header>
     <main>
-        <a href="cadastro.html">
-            <img src="./HOME/Cadastre-se/botao_de_cadastre.png" alt="Cadastre-se agora!" style="width: 60%; height: 207px; left:55px; top:291px;position:absolute;">
-        </a>
-        <h2 style="color: white;width: 98px;height:72px;left:700px;top:320px; font-weight: 400; font-size:50px; line-height: 64px; position:absolute ;">ou</h2>
-        <a href="login.html">
-            <img src="./HOME/Login/botao_de_login.png" alt="Já tem conta? Faça login!" style="width: 60%; height: 207px; left:600px; top:285px; position:absolute">
-        </a>
+        <div>
+            <a href="cadastro.html">
+            <img class="botao_de_cadastro" src="./HOME/Cadastre-se/botao_de_cadastre.png" alt="Cadastre-se agora!">
+            </a>
+            <h2 class="ou">ou</h2>
+            <a href="login.html">
+            <img class="botao_de_login" src="./HOME/Login/botao_de_login.png" alt="Já tem conta? Faça login!">
+            </a>
+        </div>
     </main> 
 
     <footer>
-    <img src="./HOME/Piano/piano.png" alt="Piano" style="width: 100%; height:100%;top:492px;position:absolute;">
+    <img class="foto_do_piano" src="./HOME/Piano/piano.png" alt="Piano">
     </footer>
     
 </body>

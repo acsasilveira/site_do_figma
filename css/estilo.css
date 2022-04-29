@@ -1,1 +1,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Gabriela&display=swap');
+* {
+    font-family:'Gabriela' ;
+}
+
+body {background-color:black;}
+
+.content {
+    width: 100%;
+    max-width: 1372px;
+    margin: 0 auto;
+}
+
+header.principal picture {
+    display:flex;
+}
+
+header.principal picture div.titulo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+img.titulo > a > img {
+    
+}
+
+img.notas1 > a > img {
+
+}
+
+img.notas2 > a > img{
+
+}
+
+img.botao_de_cadastro > a > img {
+
+}
+
+img.ou > a > img{
+
+}
+
+img.botao_de_login > a > img {
+
+}
+
+img.foto_de_piano > a > img {
+
+}
+
