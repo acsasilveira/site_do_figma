@@ -2,7 +2,6 @@
 * {
     font-family:'Gabriela';
     font-style: normal;
-    color: white;
 }
 
 body {background-color:black;}
@@ -23,47 +22,16 @@ header.principal picture div.titulo {
     justify-content: center;
 }
 
-main.botoes {
-    width: 100%;
-    display:flex;
+main.botoes div.botao_de_cadastro > button {
+    background-color: white;
+    color: black;
+    padding: 800px;
+    border: 0;
+    border-radius: 15px;
+    width: max-content;
+    margin-left: 0;
 }
+
 main.botoes div.ou {
-    font-size: xx-large;
-    justify-content: center;
-}
-
-footer.piano {
-    width: 100%;
-    display: flex;
-}
-
-header.icone div.icone_home {
-    width: 10%;
-    display: flex;
-    justify-content: left;
-}
-
-main.cadastro {
-    width: 100%;
-    display: flex;
-}
-
-main.cadastro div.fundo{
-    justify-content: center;
-}
-
-main.cadastro div.criar_conta {
-    width: 100%;
-}
-
-header.login div.icone_home {
-    width: 10%;
-    display: flex;
-    justify-content: left;
-}
-
-main.fundo div.fundo {
-    width: 100%;
-    display:flex;
-    justify-content: center;
+    color: white;
 }
