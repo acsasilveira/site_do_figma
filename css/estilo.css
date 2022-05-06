@@ -22,16 +22,36 @@ header.principal picture div.titulo {
     justify-content: center;
 }
 
-main.botoes div.botao_de_cadastro > button {
+main.botoes {
+    display: flex;
+    justify-content: space-between;
+}
+
+main.botoes div.botao_de_cadastro button {
     background-color: white;
     color: black;
-    padding: 800px;
+    padding: 80px;
     border: 0;
     border-radius: 15px;
     width: max-content;
-    margin-left: 0;
+    margin-left: 0.5rem;
+    font-size: xx-large;
 }
 
 main.botoes div.ou {
     color: white;
+}
+
+
+main.botoes div.botao_de_login button {
+    background-color: white;
+    color: black;
+    padding: 8px;
+    border: 0;
+    margin-left: 0.5rem;
+}
+
+footer.piano div.foto_do_piano{
+    width: 100%;
+
 }
