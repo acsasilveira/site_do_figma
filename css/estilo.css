@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Gabriela&display=swap');
 * {
-    font-family:'Gabriela' ;
+    font-family:'Gabriela';
+    font-style: normal;
+    color: white;
 }
 
 body {background-color:black;}
@@ -21,31 +23,47 @@ header.principal picture div.titulo {
     justify-content: center;
 }
 
-img.titulo > a > img {
-    
+main.botoes {
+    width: 100%;
+    display:flex;
+}
+main.botoes div.ou {
+    font-size: xx-large;
+    justify-content: center;
 }
 
-img.notas1 > a > img {
-
+footer.piano {
+    width: 100%;
+    display: flex;
 }
 
-img.notas2 > a > img{
-
+header.icone div.icone_home {
+    width: 10%;
+    display: flex;
+    justify-content: left;
 }
 
-img.botao_de_cadastro > a > img {
-
+main.cadastro {
+    width: 100%;
+    display: flex;
 }
 
-img.ou > a > img{
-
+main.cadastro div.fundo{
+    justify-content: center;
 }
 
-img.botao_de_login > a > img {
-
+main.cadastro div.criar_conta {
+    width: 100%;
 }
 
-img.foto_de_piano > a > img {
-
+header.login div.icone_home {
+    width: 10%;
+    display: flex;
+    justify-content: left;
 }
 
+main.fundo div.fundo {
+    width: 100%;
+    display:flex;
+    justify-content: center;
+}
