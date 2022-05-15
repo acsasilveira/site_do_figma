@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,14 +17,50 @@
     </header>
     
     <main class="cadastro">
-        <div class="fundo" >
-            <img src="./CADASTRO/Fundo/Fundo.png" alt= "Faça agora o seu cadastro! É só colocar seu nome, seu email e criar uma senha!" >
-        </div>
-        <div class= "criar_conta">
-            <a href="">
-                <img  src="./CADASTRO/Criar/botao_de_criar.png" alt="Clique aqui e crie sua conta!">
-            </a>
-        </div>
+        <section class="cadastro">
+            <h1>Cadastre-se</h1>
+            <form action="partituras.html" method="post">
+                <label for="nome"> Nome </label>
+                <div>
+                    <img src="./CADASTRO/Nome/Email-removebg-preview 1.png" alt="Informe seu nome">
+                    <input
+                    type="nome"
+                    name="nome"
+                    id="nome"
+                    required
+                    placeholder="Nome"
+                    />
+                </div>
+                <label for="nome"> Email </label>
+                <div>
+                    <img src="./CADASTRO/Email/Email-removebg-preview 1.png" alt="Insira o seu email aqui!">
+                    <input
+                    type="email"              
+                    name="email"
+                    id="email"
+                    required
+                    placeholder="Email"
+                    />
+               </div>
+               <label for="senha"> Senha </label>
+               <div>
+                   <img src="./CADASTRO/Senha/Chave 1.png" alt="Crie sua senha!">
+                   <input
+                   type="password"
+                   name="senha"
+                   id="senha"
+                   required
+                   placeholder="Senha"
+                   />
+               </div>
+               <p>
+                   Já possui conta? <a href="login.html">Faça login</a>
+               </p>
+               <a href="partituras.html">
+                    <button type="submit"> Criar </button>
+               </a>
+            </form> 
+        </section>
     </main>
 </body>
 </html>

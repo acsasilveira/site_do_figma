@@ -1,6 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Gabriela&display=swap');
+
+/*Para todos */
 * {
     font-family:'Gabriela';
+    box-sizing: border-box;
+    margin: 0;
+    margin-top: 0;
+    padding: 0;
+    outline: 0;
+    font-weight: 400;
     font-style: normal;
 }
 
@@ -9,9 +17,10 @@ body {background-color:black;}
 .content {
     width: 100%;
     max-width: 1372px;
-    margin: 0 auto;
+    margin: 0;
 }
 
+/* Página principal = index.html */
 header.principal picture {
     display:flex;
 }
@@ -24,34 +33,241 @@ header.principal picture div.titulo {
 
 main.botoes {
     display: flex;
-    justify-content: space-between;
+   justify-content: center;
+
 }
 
 main.botoes div.botao_de_cadastro button {
     background-color: white;
     color: black;
-    padding: 80px;
+    padding: 10px;
     border: 0;
-    border-radius: 15px;
+    border-radius: 9px 5%;
+    margin: 50px;
     width: max-content;
-    margin-left: 0.5rem;
+    margin-left: 100px;
     font-size: xx-large;
 }
 
 main.botoes div.ou {
     color: white;
+    margin: 50px;
 }
 
 
 main.botoes div.botao_de_login button {
     background-color: white;
     color: black;
-    padding: 8px;
+    padding: 10px;
     border: 0;
-    margin-left: 0.5rem;
+    border-radius: 9px 5%;
+    margin: 50px;
+    width: max-content;
+    margin-right: 100px;
+    font-size: xx-large;
 }
 
 footer.piano div.foto_do_piano{
-    width: 100%;
+    display: flex;
+    margin: 0;
 
 }
+
+/* Cabeçalho de Login e Cadastro  = login.html e cadastro.html */
+header.icone {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header.icone div.icone_home a{
+    height: 50px;
+    width: 75px;
+}
+
+/*Formulário de cadastro = cadastro.html */
+main.cadastro  section.cadastro{
+    display: flex;
+    height: max-content;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main.cadastro  section.cadastro  h1 {
+    color: #E2E2E2;
+    font-weight: 800;
+    margin-bottom: 2rem;
+    font-size: xx-large;
+}
+
+main.cadastro  section.cadastro  form {
+    background-color: white;
+    border: 0.2rem solid white;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    margin-bottom: 200px;
+}
+
+main.cadastro  section.cadastro  form  div {
+    background-color: #747474;
+    border: 0.15rem solid #747474;
+    border-radius: 0.6rem;
+    display: flex;
+    margin: 0.5rem 0;
+}
+
+main.cadastro  section.cadastro  form  div  img {
+    height: 2.5rem;
+    padding: 0.3rem;
+}
+
+main.cadastro  section.cadastro  form  div  input {
+    width: 100%;
+    font-size: 1rem;
+    border:0;
+    background-color: transparent;
+}
+
+main.cadastro  section.cadastro  form  p {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+main.cadastro  section.cadastro  form  a  button {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: 0;
+    border-radius: 9px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-left: 300px;
+    width: max-content;
+    font-size: xx-large;   
+}
+
+/* Formulário de login = login.html */
+main.login  section.login{
+    display: flex;
+    height: max-content;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main.login  section.login  h1 {
+    color: #E2E2E2;
+    font-weight: 800;
+    margin-bottom: 2rem;
+    font-size: xx-large;
+}
+
+main.login  section.login  form {
+    background-color: white;
+    border: 0.2rem solid white;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    margin-bottom: 200px;
+}
+
+main.login  section.login  form  div {
+    background-color: #747474;
+    border: 0.15rem solid #747474;
+    border-radius: 0.6rem;
+    display: flex;
+    margin: 0.5rem 0;
+}
+
+main.login  section.login  form  div  img {
+    height: 2.5rem;
+    padding: 0.3rem;
+}
+
+main.login  section.login  form  div  input {
+    width: 100%;
+    font-size: 1rem;
+    border:0;
+    background-color: transparent;
+}
+
+main.login  section.login  form  p {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+main.login  section.login  form  a  button {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: 0;
+    border-radius: 9px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-left: 300px;
+    width: max-content;
+    font-size: xx-large;   
+}
+
+/* Partitura  = partitura.html */
+header.partituras   h1 {
+    color: white;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+main.P {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+main.P   section.SH   img{
+    display: flex;
+    justify-content:flex-start;
+    width: 300px;
+}
+
+main.P section.SH div a{
+    display: flex;
+    color: white;
+    font-style: normal;
+    margin:20px;
+}
+
+main.P  section.VF  img{
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    margin-top: -10px;
+}
+
+main.P section.VF div a {
+    display: flex;
+    color: white;
+    font-style: normal;
+    margin:20px;
+    justify-content: center;
+}
+
+main.P section.H img {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 95px;
+    width: 300px;
+}
+
+main.P section.H div a{
+    display: flex;
+    color: white;
+    font-style: normal;
+    margin: 20px;
+    justify-content: center;
+}
+
+/* Partitura do Sherlock Holmes = the_game_is_on.html */
+

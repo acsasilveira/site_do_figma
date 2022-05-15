@@ -8,22 +8,48 @@
     <link rel="stylesheet" href="./css/estilo.css">
 </head>
 <body>
-    <header class="login">
-        <div class= icone_home>
+    <header class="icone">
+        <div class="icone_home">
             <a href="./index.html">
                 <img src="./HOME_ICON/Homepage_icon.png" alt="Volte para a página inicial" >
             </a>
-        </div>   
+        </div>    
     </header>
-<main class="fundo"> 
-    <div class = "fundo">
-        <img src="./LOGIN/Fundo/Fundo.png" alt="Digite abaixo seus dados de login!" >
-    </div>
-        <h2>Email</h2>
-    <a href="">
-        <p>Esqueceu sua senha?</p>
-    </a>
-
-</main>
+    
+    <main class="login">
+        <section class="login">
+            <h1>Faça Login</h1>
+            <form action="partituras.html" method="post">
+                <label for="nome"> Email </label>
+                <div>
+                    <img src="./CADASTRO/Email/Email-removebg-preview 1.png" alt="Insira o seu email aqui!">
+                    <input
+                    type="email"              
+                    name="email"
+                    id="email"
+                    required
+                    placeholder="Email"
+                    />
+               </div>
+               <label for="senha"> Senha </label>
+               <div>
+                   <img src="./CADASTRO/Senha/Chave 1.png" alt="Crie sua senha!">
+                   <input
+                   type="password"
+                   name="senha"
+                   id="senha"
+                   required
+                   placeholder="Senha"
+                   />
+               </div>
+               <p>
+                   Ainda não possui conta? <a href="cadastro.html">Cadastre-se</a>
+               </p>
+               <a href="partituras.html">
+                    <button type="submit"> Entrar </button>
+               </a>
+            </form> 
+        </section>
+    </main>
 </body>
 </html>
