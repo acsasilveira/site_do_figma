@@ -67,21 +67,24 @@ main.botoes div.botao_de_login button {
     font-size: xx-large;
 }
 
-footer.piano div.foto_do_piano{
+footer.piano img{
     display: flex;
-    margin: 0;
+    justify-content: center;
+    width: max-content;
 
 }
 
-/* Cabeçalho de Login e Cadastro  = login.html e cadastro.html */
+/* Ícone da casinha em todos (menos partituras.html) */
 header.icone {
     display: flex;
     justify-content: flex-end;
 }
 
-header.icone div.icone_home a{
-    height: 50px;
-    width: 75px;
+header.icone div.icone_home a img{
+    width: 100px;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 /*Formulário de cadastro = cadastro.html */
@@ -269,5 +272,98 @@ main.P section.H div a{
     justify-content: center;
 }
 
-/* Partitura do Sherlock Holmes = the_game_is_on.html */
+/* Partitura de Sherlock Holmes = the_game_is_on.html */
 
+header.icone div.SH h1 b{
+    color:white;
+    font-size: xx-large;
+    font-style: normal;
+    font-weight: 900;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 100px; 
+}
+
+main.part {
+    display: flex;
+    justify-content: center;
+} 
+
+/* Símbolo de Download */
+
+main.part section.download a img {
+    display: flex;
+    justify-content: flex-start;
+    width: 100px;
+    margin-left: 0;
+    margin-top: 100px;
+}
+/*                     */
+main.part section.partituraSH img {
+    display: flex;
+    justify-content: flex-start;
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+ 
+main.part section.Sherlock img{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 45px;
+    width: 500px;
+}
+
+/* Partitura de Vals de Las Flores = vals_de_las_flores.html */
+
+header.icone div.VF h1 b{
+    color:white;
+    font-size: xx-large;
+    font-style: normal;
+    font-weight: 900;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 100px;  
+}
+
+main.part section.partituraVF img{
+    display: flex;
+    justify-content: flex-start;
+    width: 600px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+main.part section.bailarina img{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 100px;
+    width: 35px;
+}
+
+/* Partitura de Hallelujah = hallelujah.html */
+
+header.icone div.H h1 b{
+    color:white;
+    font-size: xx-large;
+    font-style: normal;
+    font-weight: 900;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 100px;  
+}
+
+main.part section.partituraH img{
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+main.part section.Leonard img{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 200px;
+    width: 500px;
+}
