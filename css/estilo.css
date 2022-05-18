@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Gabriela&display=swap');
 
 /*Para todos */
+
 * {
     font-family:'Gabriela';
     box-sizing: border-box;
@@ -21,6 +22,7 @@ body {background-color:black;}
 }
 
 /* Página principal = index.html */
+
 header.principal picture {
     display:flex;
 }
@@ -70,24 +72,37 @@ main.botoes div.botao_de_login button {
 footer.piano img{
     display: flex;
     justify-content: center;
-    width: max-content;
+    width: 100%;
 
 }
 
 /* Ícone da casinha em todos (menos partituras.html) */
+
 header.icone {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
 }
 
 header.icone div.icone_home a img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100px;
-    margin-top: 100px;
-    margin-left: 100px;
-    margin-right: 100px;
 }
+/*                                                   */
+
+/* Símbolo de Download */
+
+header.icone section.download a img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+}
+/*                       */
 
 /*Formulário de cadastro = cadastro.html */
+
 main.cadastro  section.cadastro{
     display: flex;
     height: max-content;
@@ -152,6 +167,7 @@ main.cadastro  section.cadastro  form  a  button {
 }
 
 /* Formulário de login = login.html */
+
 main.login  section.login{
     display: flex;
     height: max-content;
@@ -216,6 +232,7 @@ main.login  section.login  form  a  button {
 }
 
 /* Partitura  = partitura.html */
+
 header.partituras   h1 {
     color: white;
     margin-top: 50px;
@@ -280,8 +297,8 @@ header.icone div.SH h1 b{
     font-style: normal;
     font-weight: 900;
     display: flex;
-    justify-content: flex-start;
-    margin-top: 100px; 
+    justify-content: center;
+    align-items: center; 
 }
 
 main.part {
@@ -289,16 +306,6 @@ main.part {
     justify-content: center;
 } 
 
-/* Símbolo de Download */
-
-main.part section.download a img {
-    display: flex;
-    justify-content: flex-start;
-    width: 100px;
-    margin-left: 0;
-    margin-top: 100px;
-}
-/*                     */
 main.part section.partituraSH img {
     display: flex;
     justify-content: flex-start;
@@ -322,8 +329,8 @@ header.icone div.VF h1 b{
     font-style: normal;
     font-weight: 900;
     display: flex;
-    justify-content: flex-start;
-    margin-top: 100px;  
+    justify-content: center;
+    align-items: center;
 }
 
 main.part section.partituraVF img{
@@ -349,8 +356,8 @@ header.icone div.H h1 b{
     font-style: normal;
     font-weight: 900;
     display: flex;
-    justify-content: flex-start;
-    margin-top: 100px;  
+    justify-content: center;
+    align-items: center;
 }
 
 main.part section.partituraH img{
