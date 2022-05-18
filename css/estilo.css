@@ -101,6 +101,19 @@ header.icone section.download a img {
 }
 /*                       */
 
+/* Ícones das páginas */
+
+header.icone section.download, header.icone div.SH, header.icone div.VF, header.icone div.H, header.icone div.icone_home{
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header.icone section.download, header.icone div.icone_home {
+    width: 20%;
+}
+
 /*Formulário de cadastro = cadastro.html */
 
 main.cadastro  section.cadastro{
@@ -291,6 +304,10 @@ main.P section.H div a{
 
 /* Partitura de Sherlock Holmes = the_game_is_on.html */
 
+header.icone div.SH {
+    width: 60%;
+}
+
 header.icone div.SH h1 b{
     color:white;
     font-size: xx-large;
@@ -323,6 +340,10 @@ main.part section.Sherlock img{
 
 /* Partitura de Vals de Las Flores = vals_de_las_flores.html */
 
+header.icone div.VF {
+    width: 60%;
+}
+
 header.icone div.VF h1 b{
     color:white;
     font-size: xx-large;
@@ -349,6 +370,10 @@ main.part section.bailarina img{
 }
 
 /* Partitura de Hallelujah = hallelujah.html */
+
+header.icone div.H {
+    width: 60%;
+}
 
 header.icone div.H h1 b{
     color:white;
